@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "0ph6kD07uGBcw0llVrZZSI",
+    "name" : "iPaaS_TestService",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "upIO3M4WwOC2XZP-gt-955519-2019-05-17T09:52:39.335Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}
