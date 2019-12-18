@@ -1,0 +1,90 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>wnHUPAZf5kck8jK-gt-2267756-2019-12-18T10:05:12.363Z::pd.xml</types1:EntryId>
+      <types1:Name>Workday_iPaaS_OpenText_IDD510018</types1:Name>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>faizan.a.shaikh@accenture.com.dev</types1:CreatedBy>
+      <types1:CreationDate>2019-12-18T10:05:12Z</types1:CreationDate>
+      <types1:ModifiedBy>faizan.a.shaikh@accenture.com.dev</types1:ModifiedBy>
+      <types1:ModificationDate>2019-12-18T10:26:55Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>faizan.a.shaikh@accenture.com.dev</types1:PublishedBy>
+      <types1:PublicationDate>2019-12-18T10:26:59Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/spi.Workday_iPaaS_OpenText_IDD510018/Workday_iPaaS_OpenText_IDD510018.pd.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  displayName="Workday_iPaaS_OpenText_IDD510018"
+                  name="Workday_iPaaS_OpenText_IDD510018">
+            <appliesTo/>
+            <description/>
+            <tags/>
+            <generator>Informatica Process Designer 11</generator>
+            <input>
+               <parameter description="" name="WorkdayPayload" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:$any</option>
+                     <option name="required">false</option>
+                     <option name="isCopy">true</option>
+                  </options>
+               </parameter>
+            </input>
+            <output>
+               <field description=""
+                      name="createOrUpdateWorkspacesResponse"
+                      type="objectlist">
+                  <options>
+                     <option name="referenceTo">$po:createOrUpdateWorkspacesResult</option>
+                     <option hide="true" name="multiSelect">true</option>
+                     <option name="required">false</option>
+                     <option name="isCopy">true</option>
+                     <option name="guid">1OsXUwkL1Sdjf4GAVjI6km</option>
+                  </options>
+               </field>
+               <field description="" name="faultcode" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field description="" name="faultstring" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+            </output>
+            <notes/>
+            <deployment suspendOnFault="false" tracingLevel="verbose">
+               <rest>
+                  <allowedUsers>
+                     <user>ipass_wrkdayuser_dev@mdlz.com</user>
+                  </allowedUsers>
+                  <wholePayload inputWholePayload="true"/>
+               </rest>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="k4b4pv8w" targetId="k4b4pv8v"/>
+               </start>
+               <assignment id="k4b4pv8v">
+                  <title>Assignment to NodeId</title>
+                  <operation source="constant"
+                             to="output.createOrUpdateWorkspacesResponse[1]/NodeId">1234</operation>
+                  <link id="k4b4pv8x" targetId="c"/>
+               </assignment>
+               <end id="c"/>
+            </flow>
+         </process>
+      </types1:Entry>
+      <types1:GUID>02Opo2Q5qQ7gG4MkOyT8Sv</types1:GUID>
+      <types1:DisplayName>Workday_iPaaS_OpenText_IDD510018</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2019-12-18T10:49:25.609Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

@@ -1,0 +1,44 @@
+{
+  "objectInfo" : {
+    "id" : "02Opo2Q5qQ7gG4MkOyT8Sv",
+    "name" : "Workday_iPaaS_OpenText_IDD510018",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "wnHUPAZf5kck8jK-gt-2267756-2019-12-18T10:05:12.363Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ {
+    "id" : "1OsXUwkL1Sdjf4GAVjI6km",
+    "name" : "createOrUpdateWorkspacesResult",
+    "type" : "PROCESS_OBJECT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hxiQLnzYLnzYLnz-gt-9774668-2019-12-18T10:03:56.117Z::po.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Workday/OpenText"
+  } ]
+}

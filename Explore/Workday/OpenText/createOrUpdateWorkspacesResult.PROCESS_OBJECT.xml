@@ -1,0 +1,36 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>hxiQLnzYLnzYLnz-gt-9774668-2019-12-18T10:03:56.117Z::po.xml</types1:EntryId>
+      <types1:Name>createOrUpdateWorkspacesResult</types1:Name>
+      <types1:ParentFlowIds>wnHUPAZf5kck8jK-gt-2267756-2019-12-18T10:05:12.363Z::pd.xml</types1:ParentFlowIds>
+      <types1:MimeType>application/xml+processobject</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>faizan.a.shaikh@accenture.com.dev</types1:CreatedBy>
+      <types1:CreationDate>2019-12-18T10:03:56Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                        displayName="createOrUpdateWorkspacesResult"
+                        isByCopy="true"
+                        name="createOrUpdateWorkspacesResult">
+            <description/>
+            <tags/>
+            <detail>
+               <field label="NodeId" name="NodeId" type="string"/>
+               <field label="ErrorMessage" name="ErrorMessage" type="string"/>
+            </detail>
+         </processObject>
+      </types1:Entry>
+      <types1:GUID>1OsXUwkL1Sdjf4GAVjI6km</types1:GUID>
+      <types1:DisplayName>createOrUpdateWorkspacesResult</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2019-12-18T10:49:25.518Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
