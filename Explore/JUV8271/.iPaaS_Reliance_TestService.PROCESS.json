@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "4G5ZGMrDzbjkM6q1CrSwKw",
+    "name" : "iPaaS_Reliance_TestService",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "xeLeG3vASaaaaa-gt-147604288-2019-08-06T11:26:15.375Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}
